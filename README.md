@@ -7,7 +7,9 @@ Un joc que es troba a gairebé tots els menús infantils del món ja està dispo
     <img src="tic-tac-toe-gif.gif" style="height: auto; width: 100%; object-fit: cover; transform: translateY(-30px);" alt="shadow-gif"/>
 </div>
 
-## Com es fa:
+## Com es fa: 
+tic-tac-toe-catalan.vercel.app
+
 
 **Tecnologia utilitzada:** HTML, CSS, JavaScript, Vercel
 
