@@ -22,15 +22,17 @@ function startGame(){
     count +=  Math.floor(Math.random() * 2)
     console.log(count)
     if(count % 2 == 0){
-        turnNumber.innerText = 'It is Player 1\'s turn!'
+        turnNumber.innerText = 'És el torn del primer jugador!'
         turnNumber.style.color ='#ffffe0'
         symbolHolder.innerText = '0'
         symbolHolder.style.color= '#71eeb8'
+        turnNumber.style.textAlign = 'center'
     }else{
-        turnNumber.innerText = 'It is Player 2\'s turn!'
+        turnNumber.innerText = 'És el torn del segon jugador'
         turnNumber.style.color ='#71eeb8'
         symbolHolder.innerText = 'X'
         symbolHolder.style.color= '#ffffe0'
+        turnNumber.style.textAlign = 'center'
     }
     
     
@@ -98,7 +100,7 @@ function whoWon(){
     if (player1Won) {
         console.log('Player 1 (O) won!');
         count += 999999
-        turnNumber.innerText = 'Player 1 won!'
+        turnNumber.innerText = 'El jugador 1 va guanyar!'
         turnNumber.style.color = '#ffffe0'
         symbolHolder.innerText = ''
 
@@ -106,14 +108,14 @@ function whoWon(){
     } else if (player2Won) {
         console.log('Player 2 (X) won!');
         count += 999999
-        turnNumber.innerText = 'Player 2 won!'
+        turnNumber.innerText = 'El jugador 2 va guanyar!'
         turnNumber.style.color = '#71eeb8'
         symbolHolder.innerText = ''
 
     }else if (showTime == false){
         console.log('game is a tie')
         count += 999999
-        turnNumber.innerText = 'Like a shoe lace... you\'ve tied!'
+        turnNumber.innerText = 'Com els mitjons, esteu empatats!'
         turnNumber.style.color = '#fdfd96'
         turnNumber.style.textAlign = 'center'
         symbolHolder.innerText = ''
@@ -147,7 +149,7 @@ gotcha.forEach(space =>{
                     element.target.innerText = 'X'
                     element.target.style.color = '#ffffe0'
                     element.target.style.backgroundColor = '#71eeb8'
-                    turnNumber.innerText = 'It is Player 1\'s turn!'
+                    turnNumber.innerText = 'És el torn del jugador 1!'
                     turnNumber.style.color ='#ffffe0'
                     symbolHolder.innerText = '0'
                     symbolHolder.style.color= '#71eeb8'
@@ -156,7 +158,7 @@ gotcha.forEach(space =>{
                     element.target.innerText = 'O'
                     element.target.style.color = '#71eeb8'
                     element.target.style.backgroundColor = '#ffffe0'
-                    turnNumber.innerText = 'It is Player 2\'s turn!'
+                    turnNumber.innerText = 'És el torn del jugador 2!'
                     turnNumber.style.color ='#71eeb8'
                     symbolHolder.innerText = 'X'
                     symbolHolder.style.color= '#ffffe0'
