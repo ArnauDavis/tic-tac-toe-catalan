@@ -1,15 +1,13 @@
 # Tic Tac Toe
 Un joc que es troba a gairebé tots els menús infantils del món ja està disponible al meu github! Aquest projecte era realment només una excusa per practicar la lògica i desplegar alguna cosa a vercel. No patrocinat per vercel, però va ser molt fàcil de configurar, m'agrada molt que pugui empènyer al meu github i el meu desplegament de vercel s'actualitzarà automàticament, molt bonic, 10/10.
 
-**Enllaç al projecte:**
+**Enllaç al projecte:** https://tic-tac-toe-catalan.vercel.app
 
 <div style="height: 200px; overflow: hidden;">
     <img src="tic-tac-toe-gif.gif" style="height: auto; width: 100%; object-fit: cover; transform: translateY(-30px);" alt="shadow-gif"/>
 </div>
 
 ## Com es fa: 
-tic-tac-toe-catalan.vercel.app
-
 
 **Tecnologia utilitzada:** HTML, CSS, JavaScript, Vercel
 
